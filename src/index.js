@@ -1,7 +1,11 @@
-let a = [31, 38, 12, 67];
+let a = [7, 4, 24, 90, 21];
+//Sort arranges in alphabetical order
+console.log(a.sort());
 
-if (a.includes(34)) {
-  console.log("Includes 34");
-} else {
-  console.log("Doesnot include");
-}
+a.push(76);
+console.log(a);
+
+a.push("goo"); //Adds element at the end
+console.log(a);
+
+a.pop(); //Removes last Element
